@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Max Verstappen",
+    "team": "Red Bull Racing"
+  },
+  {
+    "id": 2,
+    "name": "Charles Leclerc",
+    "team": "Ferrari"
+  },
+  {
+    "id": 3,
+    "name": "Lewis Hamilton",
+    "team": "Ferrari"
+  },
+  {
+    "id": 4,
+    "name": "Lando Norris",
+    "team": "McLaren"
+  },
+  {
+    "id": 5,
+    "name": "Oscar Piastri",
+    "team": "McLaren"
+  },
+  {
+    "id": 6,
+    "name": "George Russell",
+    "team": "Mercedes"
+  },
+  {
+    "id": 7,
+    "name": "Kimi Antonelli",
+    "team": "Mercedes"
+  },
+  {
+    "id": 8,
+    "name": "Fernando Alonso",
+    "team": "Aston Martin"
+  },
+  {
+    "id": 9,
+    "name": "Carlos Sainz",
+    "team": "Williams"
+  },
+  {
+    "id": 10,
+    "name": "Pierre Gasly",
+    "team": "Alpine"
+  }
+]

@@ -1,81 +1,52 @@
-<div align="center">
+# API Minimal com Fastify, TypeScript e CORS
 
-  <img src="./.github/assets/blue-saiyan-bg.png" alt="Logo" height="200">
-  <h1 align="center"><strong>NODE BOILERPLATE - BLUE EDITION</strong></h1>
-  <p align="center">
-	  Don't start a new Node project from zero!<br> Use this simple <b>Nodejs</b> boilerplate with pre-configured <b>Typescript</b> in a modern way.
-  </p>
+## Descrição
 
-</div>
+Este projeto consiste no desenvolvimento de uma API Minimal utilizando Fastify, TypeScript e CORS, com o objetivo de praticar os fundamentos do desenvolvimento back-end com Node.js.
 
-<br />
+## Tecnologias
 
-  <!-- Badges -->
-<div align="center">
-  
-  [![TypeScript version][ts-badge]][typescript-5-4]
-  [![Node.js version][nodejs-badge]][nodejs]
+- Node.js
+- TypeScript
+- Fastify
+- CORS
 
-</div>
+## Objetivos
 
-# 🚀 Technologies
+- Aprender a criar uma API com Fastify.
+- Entender o funcionamento das rotas HTTP.
+- Praticar o uso do TypeScript com Node.js.
+- Aprender a configurar o CORS.
+- Entender como permitir requisições de diferentes origens.
+- Receber e retornar dados em JSON.
 
-This code source was developed with the following items:
+## Funcionalidades
 
-### 📦 Dependencies
+- Criar rotas HTTP.
+- Receber requisições.
+- Retornar respostas em JSON.
+- Utilizar diferentes métodos HTTP.
+- Configurar o CORS para controlar as origens permitidas.
 
-- [typescript][typescript-npm] - Superset for application scale JavaScript development
-- [tsx][tsx-npm] - TypeScript Execute (tsx): Enable Node.js to run TypeScript
-- [tsup][tsup-npm] - Bundle your TypeScript library with no config, powered by esbuild
-- [@types/node][@types/node-npm] - type definitions for node
+## Como executar o projeto
 
-### 📄 Files
+1. Clone este repositório.
+2. Instale as dependências:
 
-- `.gitignore` - Ignore folders like node_modules
-- `.env` - Enviroment variables
-- `tsconfig.json` - Typescript configure Options
+   ```bash
+   npm install
+   ```
 
-### ⚡ Scripts
+3. Execute o projeto utilizando o script configurado no `package.json`.
 
-- `npm run dist`: Compiles TypeScript files to JavaScript in the dist directory.
-- `npm run start:dev`: Runs the server in development mode with environment variables loaded from the .env file.
-- `npm run start:watch`: Runs the server in development mode with support for automatic reload on file changes.
-- `npm run start:dist`: Compiles the project and runs the compiled version from the dist directory.
+## Aprendizados
 
-# 👨‍💻 How To Use
+O projeto tem como foco praticar a criação de APIs com Fastify e TypeScript, além de compreender como o CORS funciona e como configurar o acesso à API por aplicações de diferentes origens.
 
-click in **[Use this template]** OR
+## Status do projeto
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v20+](https://nodejs.org/en/) + [NPM v10+](https://nodejs.org/en/) installed on your computer. From your command line:
+Em desenvolvimento, com foco no aprendizado e na prática de Node.js.
 
-```bash
-# Clone this repository
-$ git clone https://github.com/felipeAguiarCode/node-blue-boilerplate
+---
 
-# Go into the repository
-$ cd node-blue-boilerplate
-
-# Install dependencies
-$ npm install
-```
-
-## Author
-
-| [<img src="https://avatars3.githubusercontent.com/u/37452836?s=96&v=4"><br><sub>Felipe Aguiar</sub>](https://github.com/felipeAguiarCode) |
-| :---------------------------------------------------------------------------------------------------------------------------------------: |
-|                                            [Linkedin](www.linkedin.com/in/felipe-aguiar-exe/)                                             |
-
-# Credits
-
-icons by [Pino Lamanna][dribble-icon]
-
-[typescript]: https://www.typescriptlang.org/
-[typescript-5-4]: https://www.typescriptlang.org/
-[ts-badge]: https://img.shields.io/badge/TypeScript-5.4-blue.svg
-[nodejs-badge]: https://img.shields.io/badge/Node.js->=%2020.00-blue.svg
-[nodejs]: https://nodejs.org/
-[dribble-icon]: https://dribbble.com/Schakalwal
-[typescript-npm]: https://www.npmjs.com/package/typescript
-[tsx-npm]: https://www.npmjs.com/package/tsx
-[tsup-npm]: https://www.npmjs.com/package/tsup
-[@types/node-npm]: https://www.npmjs.com/package/@types/node
+Desenvolvido por Pedro Vitor.
